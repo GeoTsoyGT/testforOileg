@@ -1,0 +1,21 @@
+task_id: 20260223-vereisky-pvt-screen-v1
+requester: "name_or_team"
+priority: normal  # low|normal|high
+objective: "Кратко: что посчитать/проанализировать"
+asset: "field/reservoir/well"
+source_files:
+  - "inbox/raw/20260223-vereisky-pvt-screen-v1/PVT_master.csv"
+units:
+  pressure: "MPa"
+  temperature: "C"
+  gor: "m3/t"
+required_outputs:
+  - report_md
+  - result_tables_csv
+checks:
+  include_qc: true
+  include_sensitivity: false
+assumptions:
+  - "Если данных не хватает, использовать отраслевые допущения и явно их указать"
+deadline_utc: "2026-02-24T18:00:00Z"
+notes: ""
