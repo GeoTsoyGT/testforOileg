@@ -1,0 +1,5 @@
+task_id: 20260223-pvt-1
+objective: "Проверить PVT и дать краткий вывод"
+source_files:
+  - "inbox/raw/20260223-pvt-1/PVT_master_sample.csv"
+output: "report+csv"

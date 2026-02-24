@@ -1,0 +1,3 @@
+asset,field,structure,reservoir,horizon,p_res_MPa,t_res_C,pb_MPa,rs_std_m3_per_t,bo_std,rho_pl_g_cm3,mu_pl_mPa_s
+Berket-Klyuchevskoye,Kazachinskoye uplift,Reservoir I,Vereisky,Vereisky,7.4,22,0.6,0.585,1.0125,0.9015,4.7
+Berket-Klyuchevskoye,Kzyl-Kochskoye uplift,Reservoir V,Vereisky,Vereisky,7.4,22,0.6,6.272,1.0165,0.9019,54.17
